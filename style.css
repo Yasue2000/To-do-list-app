@@ -189,7 +189,7 @@ h1{
    background: none;
    cursor: pointer;
 }
-@media (max-width : 400px){
+@media (max-width : 768px){
   .todo-list-container{
     padding: 0 14px;
   }
