@@ -81,7 +81,7 @@ h1{
   background-color: var(--secondary-color);
   color: var(--plain-text-color);
   font-family: monospace;
-  font-size: 1.05rem;
+  font-size: clamp(.8rem, 2vw, 1.05rem);
   overflow: none;
   transition: border 100ms ease;
 }
@@ -192,9 +192,6 @@ h1{
 @media (max-width : 400px){
   .todo-list-container{
     padding: 0 14px;
-  }
-  #todo-input{
-    font-size: 1rem;
   }
   .todo-list{
     grid-template-columns: repeat(auto-fill, 290px);
